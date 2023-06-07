@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <div class="home-card">
+      <div class="cardDetail">
+        <img class="Jeremy" src="/images/image-jeremy.png" alt="faceshot of Jeremy">
+        <div>
+          <p>Report for</p>
+          <h1>Jeremy Robson</h1>
+        </div>
+      </div>
+      <div class="conversion">
+        <p id="daily">Daily</p>
+        <p id="weekly">Weekly</p>
+        <p id="monthly">Monthly</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="innerCard"></div>
+      <div class="hoursDescription">
+        <div class="title">
+          <h3>Work</h3>
+          <svg class="fill" width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+              fill="#fff" fill-rule="evenodd" />
+          </svg>
+        </div>
+        <div class="hours">
+          <p><span class="weeklyHours"></span>hrs</p>
+          <p>Last Week - <span class="last"></span>hrs</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card1">
+      <div class="innerCard2"></div>
+      <div class="hoursDescription">
+        <div class="title">
+          <h3>Play</h3>
+          <svg class="fill" width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+              fill="#fff" fill-rule="evenodd" />
+          </svg>
+        </div>
+        <div class="hours">
+          <p><span class="weeklyHours"></span>hrs</p>
+          <p>Last Week - <span class="last"></span>hrs</p>
+        </div>
+      </div>
+    </div>
+    <div class="card2">
+      <div class="innerCard3"></div>
+      <div class="hoursDescription">
+        <div class="title">
+          <h3>Study</h3>
+          <svg class="fill" width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+              fill="#fff" fill-rule="evenodd" />
+          </svg>
+        </div>
+        <div class="hours">
+          <p><span class="weeklyHours"></span>hrs</p>
+          <p>Last Week - <span class="last"></span>hrs</p>
+        </div>
+      </div>
+    </div>
+    <div class="card3">
+      <div class="innerCard4"></div>
+      <div class="hoursDescription">
+        <div class="title">
+          <h3>Exercise</h3>
+          <svg class="fill" width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+              fill="#fff" fill-rule="evenodd" />
+          </svg>
+        </div>
+        <div class="hours">
+          <p><span class="weeklyHours"></span>hrs</p>
+          <p>Last Week - <span class="last"></span>hrs</p>
+        </div>
+      </div>
+    </div>
+    <div class="card4">
+      <div class="innerCard5"></div>
+      <div class="hoursDescription">
+        <div class="title">
+          <h3>Social</h3>
+          <svg class="fill" width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+              fill="#fff" fill-rule="evenodd" />
+          </svg>
+        </div>
+        <div class="hours">
+          <p><span class="weeklyHours"></span>hrs</p>
+          <p>Last Week - <span class="last"></span>hrs</p>
+        </div>
+      </div>
+    </div>
+    <div class="card5">
+      <div class="innerCard6"></div>
+      <div class="hoursDescription">
+        <div class="title">
+          <h3>Self Care</h3>
+          <svg class="fill" width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+              fill="#fff" fill-rule="evenodd" />
+          </svg>
+        </div>
+        <div class="hours">
+          <p><span class="weeklyHours"></span>hrs</p>
+          <p>Last Week - <span class="last"></span>hrs</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+        href="#">Joshua Mujuru</a>.
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>
